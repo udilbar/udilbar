@@ -33,7 +33,7 @@ const Header = ({ loader }: HeaderProps) => {
       <div className={styles.bar}>
         <Link href="/" className="flex items-center justify-center">
           <span className="text-md font-semibold transition-transform hover:translate-x-1 hover:translate-y-1">
-            {meta.author.name}
+            {meta.author.username}
           </span>
         </Link>
         <div onClick={() => setIsActive(!isActive)} className={styles.el}>

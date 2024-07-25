@@ -2,7 +2,8 @@
   z-index: 10;
   background-color: hsl(var(--background) / .8);
   position: fixed;
-  width: 100%;
+  max-width: 1335px;
+  width: calc(100% - 4rem);
   box-sizing: border-box;
   padding: 15px;
   backdrop-filter: blur(12px);
