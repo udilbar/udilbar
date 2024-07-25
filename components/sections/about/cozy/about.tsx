@@ -26,19 +26,17 @@ function About() {
         </div>
         <div className="space-y-4">
           <p className="max-w-[1200px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            I am your go-to frontend web developer for small and medium-sized
-            businesses.
+            I am your go-to frontend web developer with a Bachelor&apos;s Degree
+            in Economics & Management from Tashkent University of Information
+            and Technologies. I graduated with a 4.92 GPA and have a strong
+            background in front-end development.
             <br />
             I am passionate about delivering results that endure:
             <br />
             - 🚀 Velocity
             <br />
             - 🔒 Veracity
-            <br />
-            - 💼 Value
-            <br />I specialize in crafting precise, adaptive, custom web
-            applications that empower clients to excel in their markets. Major
-            corporations have seen profit boosts with my assistance.
+            <br />- 💼 Value
           </p>
           <Button asChild>
             <Link
