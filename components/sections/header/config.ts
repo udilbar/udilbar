@@ -21,14 +21,14 @@ const links: Link[] = [
     href: '#skills',
     thumbnail: 'skills.jpg'
   },
-  {
-    title: 'Testimonials',
-    href: '#testimonials',
-    thumbnail: 'testimonials.jpg'
-  },
+  // {
+  //   title: 'Testimonials',
+  //   href: '#testimonials',
+  //   thumbnail: 'testimonials.jpg'
+  // },
   {
     title: 'Blog',
-    href: 'https://blog.example.com',
+    href: 'https://dev.to/udilbar',
     thumbnail: 'blog.jpg',
     target: '_blank'
   },

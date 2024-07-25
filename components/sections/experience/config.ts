@@ -2,32 +2,25 @@ import { Experience } from '@/types/experience';
 
 const experiences: Experience[] = [
   {
-    name: 'Web Development',
-    duration: '2022 - Present',
-    company: 'Acme Inc',
+    name: 'Freelance Frontend Software Developer',
+    duration: 'Nov 2022 - Present',
+    company: 'Self-employed (Remote)',
     description:
-      'Building beautiful and functional websites using modern web technologies, focusing on performance, accessibility, and SEO-friendly design.'
+      'Developing dynamic cashier dashboards and responsive websites with Electron.js, React.js, and contributing to AI-powered chat apps with UI design and dynamic styling using Next.js and JavaScript.'
   },
   {
-    name: 'UI/UX Design',
-    duration: '2021 - 2022',
-    company: 'Creative Designs Ltd',
+    name: 'Frontend Developer',
+    duration: 'Nov 2021 - Oct 2022',
+    company: 'Pixer Devs',
     description:
-      'Creating delightful and intuitive user experiences, specializing in responsive design and user-centric methodologies.'
+      'Developing comprehensive dashboards, writing tests to ensure reliability and functionality and optimizing performance for better efficiency.'
   },
   {
-    name: 'Database Management',
-    duration: '2020 - 2022',
-    company: 'DataTech Solutions',
+    name: 'Full Stack Developer',
+    duration: 'Apr 2021 - Sep 2021',
+    company: 'Uztelecom ',
     description:
-      'Storing and organizing data efficiently, ensuring data integrity, and optimizing database queries for high traffic applications.'
-  },
-  {
-    name: 'Mobile Development',
-    duration: '2019 - 2021',
-    company: 'Innovative Apps Inc',
-    description:
-      'Crafting engaging and scalable apps for smartphones and tablets, focusing on cross-platform development and native performance.'
+      'Optimizing a multilingual job platform, admin dashboard, and API responses, significantly improving code quality, productivity, and server efficiency.'
   }
 ];
 
