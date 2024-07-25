@@ -4,7 +4,7 @@ const metadata: Metadata = {
   author: {
     name: 'Dilbar Urinboeva',
     username: 'udilbar',
-    label: 'Frontend Developer'
+    label: 'Frontend Web Developer'
   },
   site: {
     title: 'Dilbar Urinboeva - Portfolio Website',

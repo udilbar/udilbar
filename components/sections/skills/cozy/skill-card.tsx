@@ -42,8 +42,9 @@ function SkillCard({
       <CardContent className="flex flex-col items-start p-6">
         <AccordionItem value={`acc-${index}`} className="w-full border-none">
           <div className="flex w-full items-center justify-between">
-            <span className="text-lg font-semibold">({index})</span>
-
+            <h3 className="mt-2 text-2xl font-bold leading-8 tracking-tight">
+              {name}
+            </h3>
             {trimLen != -1 && (description || '').length > trimLen ? (
               <AccordionTrigger />
             ) : (
@@ -51,9 +52,6 @@ function SkillCard({
             )}
           </div>
           <div className="grid gap-0.5">
-            <h3 className="mt-2 text-2xl font-bold leading-8 tracking-tight">
-              {name}
-            </h3>
             {trimLen != 0 && (
               <p className="mt-2 text-base text-muted-foreground">
                 {trimLen != -1
