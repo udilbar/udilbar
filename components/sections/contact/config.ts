@@ -1,12 +1,12 @@
 import { Contact } from '@/types/contact';
 
 const contact: Contact = {
-  email: 'john@example.com',
+  email: 'uriboyeva.dilbar@gmail.com',
   socials: {
-    github: 'https://github.com/',
-    youtube: 'https://youtube.com/',
-    twitter: 'https://twitter.com/',
-    linkedin: 'https://linkedin.com/'
+    github: 'https://github.com/udilbar',
+    youtube: 'https://www.youtube.com/@udilbar',
+    telegram: 't.me/udilbar',
+    linkedin: 'https://linkedin.com/in/udilbar'
   }
 };
 

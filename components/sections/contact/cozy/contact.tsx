@@ -9,7 +9,7 @@ import {
   YoutubeIcon,
   GithubIcon,
   LinkedinIcon,
-  TwitterIcon
+  LucideMessageCircle
 } from 'lucide-react';
 import ContactForm from './contact-form';
 
@@ -72,10 +72,10 @@ function Contact() {
                   </a>
                 </Button>
               )}
-              {contact.socials?.twitter && (
+              {contact.socials?.telegram && (
                 <Button variant="outline" size="icon" asChild>
-                  <a target="_blank" href={contact.socials.twitter}>
-                    <TwitterIcon className="h-4 w-4" />{' '}
+                  <a target="_blank" href={contact.socials.telegram}>
+                    <LucideMessageCircle className="h-4 w-4" />{' '}
                     {/* good 'ol twitter icon */}
                   </a>
                 </Button>
