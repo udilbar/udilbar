@@ -13,7 +13,7 @@ const projects: Project[] = [
     slug: 'dizipro',
     description:
       'A social app for food lovers where users can post, share, and discover recipes from around the world.',
-    thumbnail: '/images/projects/recipe_app/cover.jpg'
+    thumbnail: '/images/projects/dizipro/cover.jpg'
   },
   {
     name: 'LexmeAI',
@@ -38,7 +38,7 @@ const projects: Project[] = [
   },
   {
     name: 'Job Posting Platform',
-    slug: 'coding_tutorials',
+    slug: 'job_postings',
     description:
       'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
     thumbnail: '/images/projects/coding_tutorials/cover.jpg'

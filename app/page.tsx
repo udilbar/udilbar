@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <SmoothScroll>
       <Preloader />
-      <div className="container flex min-h-[100dvh] flex-col">
+      <div className="flex min-h-[100dvh] flex-col">
         <Header loader={true} />
-        <main className="flex-1">
+        <main className="container flex-1">
           <Hero />
           <About />
           <Skills />
