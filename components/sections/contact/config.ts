@@ -5,7 +5,7 @@ const contact: Contact = {
   socials: {
     github: 'https://github.com/udilbar',
     youtube: 'https://www.youtube.com/@udilbar',
-    telegram: 't.me/udilbar',
+    telegram: 'https://t.me/udilbar',
     linkedin: 'https://linkedin.com/in/udilbar'
   }
 };
