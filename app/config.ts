@@ -4,13 +4,13 @@ const metadata: Metadata = {
   author: {
     name: 'Dilbar Urinboeva',
     username: 'udilbar',
-    label: 'Frontend Web Developer'
+    label: 'Frontend Developer'
   },
   site: {
     title: 'Dilbar Urinboeva - Portfolio Website',
     description: 'Portfolio of frontend web developer Dilbar Urinboeva.',
     ogImage: '/images/og.png',
-    url: 'https://www.example.com',
+    url: 'https://udilbar.uz',
     keywords: [
       'web development',
       'projects',

@@ -12,7 +12,7 @@ const projects: Project[] = [
     name: 'Dizipro',
     slug: 'dizipro',
     description:
-      'A social app for food lovers where users can post, share, and discover recipes from around the world.',
+      'An online platform for custom, high-quality 3D modeling, offering a range of accurate and affordable models crafted by professional designers.',
     thumbnail: '/images/projects/dizipro/cover.jpg'
   },
   {
