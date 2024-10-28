@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import styles from './style.module.scss';
 import { height } from '../anim';
 import Body from './body/body';
-import Footer from './footer/footer';
 import Image from './image/image';
 import ModeToggle from '@/components/mode-toggle';
 
@@ -40,7 +39,6 @@ const Index: React.FC<IndexProps> = ({ setIsActive }) => {
             setSelectedLink={setSelectedLink}
             setIsActive={setIsActive}
           />
-          {/* <Footer /> */}
         </div>
         <Image
           src={links[selectedLink.index].thumbnail}

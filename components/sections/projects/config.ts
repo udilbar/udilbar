@@ -17,10 +17,10 @@ const projects: Project[] = [
   },
   {
     name: 'LexmeAI',
-    slug: 'lexmeai',
+    slug: 'lexme_ai',
     description:
-      'A platform where students can form virtual study groups, schedule sessions, and share resources in real-time.',
-    thumbnail: '/images/projects/study_group/cover.jpg'
+      'An AI-driven chat application designed to provide users with reliable legal insights based on the Laws of the Republic of Uzbekistan and the Uzbek Constitution.',
+    thumbnail: '/images/projects/lexme_ai/cover.jpg'
   },
   {
     name: 'Imperium POS',

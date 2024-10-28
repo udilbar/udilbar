@@ -5,13 +5,16 @@
     position: relative;
     display: flex;
     gap: 50px;
-    margin-bottom: 12px; // prev 80px
+    margin-bottom: 12px;
+    align-items: center;
   }
 
   .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
