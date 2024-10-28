@@ -58,6 +58,7 @@ export async function contactSubmit(prevState: any, formData: FormData) {
     });
 
     if (error) {
+      console.log(error.message);
       return {
         success: false,
         message: 'Oops! Something went wrong. Please try again later.'
@@ -68,7 +69,8 @@ export async function contactSubmit(prevState: any, formData: FormData) {
       success: true,
       message: 'Thank you for reaching out! Your message has been sent.'
     };
-  } catch (error) {
+  } catch (error: any) {
+    console.log(error.message);
     return {
       success: false,
       message: 'Oops! Something went wrong. Please try again later.'
