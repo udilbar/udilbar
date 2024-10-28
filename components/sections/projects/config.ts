@@ -23,11 +23,11 @@ const projects: Project[] = [
     thumbnail: '/images/projects/lexme_ai/cover.jpg'
   },
   {
-    name: 'Imperium POS',
+    name: 'Imperium POS Cashier Dashboard',
     slug: 'imperium_pos',
     description:
-      'A mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools.',
-    thumbnail: '/images/projects/fitness_tracker/cover.jpg'
+      'A streamlined app within the Imperium POS system, enabling cashiers to manage inventory, process sales, and generate receipts in real time.',
+    thumbnail: '/images/projects/imperium_pos/cover.jpg'
   },
   {
     name: 'Telecomchat',

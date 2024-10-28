@@ -94,7 +94,7 @@ const ProjectPage = (props: ProjectPageProps) => {
         width={1280}
         height={832}
         alt={metadata.name}
-        className="my-12 max-w-[1000px] rounded-lg"
+        className="my-12 w-full max-w-[1000px] rounded-lg"
       />
       {content}
     </div>
