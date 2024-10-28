@@ -41,7 +41,7 @@ export default function ContactForm({ state }: ContactFormProps) {
         <Input
           id="name"
           name="name"
-          placeholder="Enter your name"
+          placeholder="Name"
           required
           disabled={pending}
         />
