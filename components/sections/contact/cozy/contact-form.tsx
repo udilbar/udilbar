@@ -41,7 +41,7 @@ export default function ContactForm({ state }: ContactFormProps) {
         <Input
           id="name"
           name="name"
-          placeholder="Jane Doe"
+          placeholder="Enter your name"
           required
           disabled={pending}
         />
@@ -62,7 +62,7 @@ export default function ContactForm({ state }: ContactFormProps) {
         <Input
           id="email"
           name="email"
-          placeholder="jane@example.com"
+          placeholder="Email"
           required
           type="email"
           disabled={pending}
@@ -84,9 +84,7 @@ export default function ContactForm({ state }: ContactFormProps) {
         <Textarea
           id="message"
           name="message"
-          placeholder={
-            'Hello!\n\nThis is Jane Doe, from Example. Just wanted to say hi!'
-          }
+          placeholder={'Message here...'}
           required
           disabled={pending}
         />
