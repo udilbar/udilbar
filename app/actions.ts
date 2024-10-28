@@ -52,7 +52,7 @@ export async function contactSubmit(prevState: any, formData: FormData) {
 
     const { data: res, error } = await resend.emails.send({
       from: EMAIL_FROM,
-      to: EMAIL_TO,
+      to: [EMAIL_TO],
       subject: `Message from ${name} on Portfolio`,
       react: ContactEmail({ name, email, message })
     });
@@ -60,7 +60,7 @@ export async function contactSubmit(prevState: any, formData: FormData) {
     if (error) {
       return {
         success: false,
-        message: `Oops! ${error.message}`
+        message: 'Oops! Something went wrong. Please try again later.'
       };
     }
 
