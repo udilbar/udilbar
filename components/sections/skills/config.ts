@@ -7,7 +7,7 @@ const skills: Skill[] = [
   {
     name: 'Languages & Frameworks',
     Icon: CodeIcon,
-    description: `JavaScript, TypeScript, HTML, SCSS, React.js, Next.js, NodeJS, Electron.js`
+    description: `JavaScript, TypeScript, HTML, SCSS, React.js, Next.js, Node.js, Electron.js`
   },
   {
     name: 'Tools & Technologies',

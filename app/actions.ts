@@ -60,7 +60,7 @@ export async function contactSubmit(prevState: any, formData: FormData) {
     if (error) {
       return {
         success: false,
-        message: 'Oops! Something went wrong. Please try again later.'
+        message: `Oops! ${error.message}`
       };
     }
 
