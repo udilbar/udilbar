@@ -31,7 +31,7 @@ function ProjectCard({
   return (
     <Card
       className={cn(
-        'group relative flex flex-col justify-between overflow-hidden rounded-md bg-muted/40',
+        'group relative flex flex-col overflow-hidden rounded-md bg-muted/40',
         className
       )}
     >

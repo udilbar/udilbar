@@ -30,11 +30,11 @@ const projects: Project[] = [
     thumbnail: '/images/projects/fitness_tracker/cover.jpg'
   },
   {
-    name: 'Telecom Chat',
-    slug: 'telecom_chat',
+    name: 'Telecomchat',
+    slug: 'telecomchat',
     description:
-      'An e-commerce platform dedicated to eco-friendly products where users can buy, sell, and learn about sustainable living.',
-    thumbnail: '/images/projects/eco_marketplace/cover.jpg'
+      'A secure, adaptive web app developed to enable private, Telegram-like communication for 17,000+ employees.',
+    thumbnail: '/images/projects/telecomchat/cover.jpg'
   },
   {
     name: 'Job Posting Platform',
